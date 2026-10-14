@@ -11,8 +11,8 @@ Aplicación estática, lista para Vercel. No requiere instalar dependencias ni p
 ## Funcionalidad
 
 - Panel ejecutivo de marketing y embudo comercial.
-- Gestión local de leads con filtros y alta manual.
-- Importación de CSV: `nombre,telefono,email,canal,campaña,estadolead,fecha`.
-- Lectura de citas, presupuestos, CPL y ROI de demostración.
+- Gestión de leads con búsqueda y filtros.
+- Carga progresiva del Excel incluido en `data/gestion-leads.xlsx`.
+- KPIs calculados sobre todas las filas de Leads, Citas y Pptos.
 
-Los datos importados se procesan exclusivamente en el navegador. Para una versión con base de datos, usuarios y persistencia habrá que conectar un backend (por ejemplo Supabase, Neon o Vercel Postgres).
+Los datos se procesan en el navegador. Para actualización automática, usuarios y persistencia habrá que conectar una API o base de datos (por ejemplo Supabase, Neon o Vercel Postgres).
